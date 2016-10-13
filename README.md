@@ -5,8 +5,8 @@ Sistemas de Interacción Persona Computador
 
 ## Autores
 * Jorge Alonso Hernández Correo: alu0100767803@ull.edu.es  
-* Diego ALvarez Padrón Correo:
-* Alberto Ruiz Perez Correo:   
+* Diego Álvarez Padrón Correo:
+* Alberto Ruiz Pérez Correo:   
 Universidad de La Laguna, Escuela Superior de Ingeniería y Tecnología, 3º
 
 ## Lenguajes empleados
@@ -14,4 +14,4 @@ Universidad de La Laguna, Escuela Superior de Ingeniería y Tecnología, 3º
 * XSL
 * XML-Schema
 
-## Descripción 
+## Descripción
