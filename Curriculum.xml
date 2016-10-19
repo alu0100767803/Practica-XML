@@ -39,4 +39,19 @@
       <!-- rellenar -->
     </programas>
   </informatica>
+
+  <datos_de_interes>
+    <carne_conducir> </carne_de_conducir> <!-- rellenar -->
+    <disponibilidad_geografica> </disponibilidad_geografica> <!-- rellenar -->
+    <incorporacion_inmediata> </incorporacion_inmediata> <!-- rellenar -->
+    <capacidades>
+      <!-- rellenar -->
+    </capacidades>
+    <habilidades>
+      <!-- rellenar -->
+    </habilidades>
+    <aficiones>
+      <!-- rellenar -->
+    </aficiones>
+  </datos_de_interes>
 </curriculum>
