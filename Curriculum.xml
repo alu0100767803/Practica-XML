@@ -42,6 +42,18 @@
     <fecha_comienzo> </fecha_comienzo> <!-- rellenar -->
     <fecha_finalización> </fecha_finalización> <!-- rellenar -->
   </experiencia_profesional>
+
+  <formación_complementaria>
+    <curso>
+      <nombre_curso> </nombre_curso> <!-- rellenar -->
+      <centro_organizador> </centro_organizador> <!-- rellenar -->
+      <localidad_centro> </localidad_centro> <!-- rellenar -->
+      <inicio> </inicio> <!-- rellenar -->
+      <fin> </fin> <!-- rellenar -->
+      <horas> </horas> <!-- rellenar -->
+    </curso>
+  </formación_complementaria>
+
   <informatica>
     <nivel> </nivel> <!-- rellenar -->
     <programas>
