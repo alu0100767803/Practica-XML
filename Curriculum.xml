@@ -1,6 +1,6 @@
 <curriculum>
   <datos_personales>
-      <nombre></nombre>  <!-- rellenar -->
+      <nombre> </nombre>  <!-- rellenar -->
       <apellidos></apellidos> <!-- rellenar -->
       <fecha_nacimiento> </fecha_nacimiento> <!-- rellenar -->
       <lugar_nacimiento> </lugar_nacimiento> <!-- rellenar -->
@@ -11,6 +11,7 @@
       </telefonos>
       <correo> </correo> <!-- rellenar -->
   </datos_personales>
+
   <formacion_academica>
     <titulacion>
       <nombre_titulacion> </nombre_titulacion> <!-- rellenar -->
@@ -18,6 +19,24 @@
       <año_fin> </año_fin> <!-- rellenar -->
       <centro_estudio> </centro_estudio> <!-- rellenar -->
     </titulacion>
-
   </formacion_academica>
+
+  <practicas_profesionales>
+    <empresa>
+      <nombre_empresa> </nombre_empresa> <!-- rellenar -->
+      <localidad> </localidad> <!-- rellenar -->
+      <tareas>
+        <!-- rellenar -->
+      </tareas>
+      <fecha_inicio> </fecha_inicio> <!-- rellenar -->
+      <fecha_fin> </fecha_fin> <!-- rellenar -->
+    </empresa>
+  </practicas_profesionales>
+
+  <informatica>
+    <nivel> </nivel> <!-- rellenar -->
+    <programas>
+      <!-- rellenar -->
+    </programas>
+  </informatica>
 </curriculum>
