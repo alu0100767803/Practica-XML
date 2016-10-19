@@ -54,6 +54,26 @@
     </curso>
   </formación_complementaria>
 
+  <idiomas>
+    <idioma>
+      <nombre_idioma> </nombre_idioma> <!-- rellenar -->
+      <nivel_lectura> </nivel_lectura> <!-- rellenar -->
+      <nivel_habla> </nivel_habla> <!-- rellenar -->
+      <nivel_escritura> </nivel_escritura> <!-- rellenar -->
+      <cursos_idiomas>
+        <nombre_curso_idioma> </nombre_curso_idioma> <!-- rellenar -->
+        <duracion_curso> </duracion_curso> <!-- rellenar -->
+        <certificación_obtenida> </certificación_obtenida> <!-- rellenar -->
+      </cursos_idiomas>
+      <estancias_extranjero>
+        <estancia>
+          <lugar_estancia> </lugar_estancia> <!-- rellenar -->
+          <pais_estancia> </pais_estancia> <!-- rellenar -->
+          <duracion_estancia> </duracion_estancia> <!-- rellenar -->
+        </estancia>
+      </estancias_extranjero>
+    </idioma>
+  </idiomas>
   <informatica>
     <nivel> </nivel> <!-- rellenar -->
     <programas>
@@ -62,7 +82,7 @@
   </informatica>
 
   <datos_de_interes>
-    <carne_conducir> </carne_de_conducir> <!-- rellenar -->
+    <carne_conducir> </carne_conducir> <!-- rellenar -->
     <disponibilidad_geografica> </disponibilidad_geografica> <!-- rellenar -->
     <incorporacion_inmediata> </incorporacion_inmediata> <!-- rellenar -->
     <capacidades>
