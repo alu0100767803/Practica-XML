@@ -60,11 +60,11 @@
       <nivel_lectura> </nivel_lectura> <!-- rellenar -->
       <nivel_habla> </nivel_habla> <!-- rellenar -->
       <nivel_escritura> </nivel_escritura> <!-- rellenar -->
-      <cursos_idiomas>
+      <cursos_idioma>
         <nombre_curso_idioma> </nombre_curso_idioma> <!-- rellenar -->
         <duracion_curso> </duracion_curso> <!-- rellenar -->
         <certificación_obtenida> </certificación_obtenida> <!-- rellenar -->
-      </cursos_idiomas>
+      </cursos_idioma>
       <estancias_extranjero>
         <estancia>
           <lugar_estancia> </lugar_estancia> <!-- rellenar -->
