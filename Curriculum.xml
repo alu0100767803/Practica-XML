@@ -1,0 +1,15 @@
+<curriculum>
+  <datos_personales>
+      <nombre></nombre>  <!-- rellenar -->
+      <apellidos></apellidos> <!-- rellenar -->
+      <fecha_nacimiento> </fecha_nacimiento> <!-- rellenar -->
+      <lugar_nacimiento> </lugar_nacimiento> <!-- rellenar -->
+      <direccion> </direccion> <!-- rellenar -->
+      <telefonos>
+        <fijo> </fijo> <!-- rellenar -->
+        <movil> </movil> <!-- rellenar -->
+      </telefonos>
+      <correo> </correo> <!-- rellenar -->
+  </datos_personales>
+  
+</curriculum>
