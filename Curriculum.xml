@@ -33,6 +33,15 @@
     </empresa>
   </practicas_profesionales>
 
+  <experiencia_profesional>
+    <puesto_ocupado> </puesto_ocupado> <!-- rellenar -->
+    <localidad_empresa> </localidad_empresa> <!-- rellenar -->
+    <tareas_desarrolladas>
+      <!-- rellenar -->
+    </tareas_desarrolladas>
+    <fecha_comienzo> </fecha_comienzo> <!-- rellenar -->
+    <fecha_finalización> </fecha_finalización> <!-- rellenar -->
+  </experiencia_profesional>
   <informatica>
     <nivel> </nivel> <!-- rellenar -->
     <programas>
