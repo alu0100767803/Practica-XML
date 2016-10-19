@@ -1,16 +1,16 @@
-<?xml version="1.0" ?> 
+<?xml version="1.0" ?>
 <curriculum>
   <datos_personales>
-      <nombre> </nombre>  <!-- rellenar -->
-      <apellidos></apellidos> <!-- rellenar -->
-      <fecha_nacimiento> </fecha_nacimiento> <!-- rellenar -->
-      <lugar_nacimiento> </lugar_nacimiento> <!-- rellenar -->
-      <direccion> </direccion> <!-- rellenar -->
+      <nombre> Juan </nombre>
+      <apellidos>Fernández Núñez </apellidos>
+      <fecha_nacimiento> 20/12/1988 </fecha_nacimiento>
+      <lugar_nacimiento> La Laguna </lugar_nacimiento>
+      <direccion> calle La Carrera </direccion>
       <telefonos>
-        <fijo> </fijo> <!-- rellenar -->
-        <movil> </movil> <!-- rellenar -->
+        <fijo> 922345670 </fijo>
+        <movil> 653859932 </movil>
       </telefonos>
-      <correo> </correo> <!-- rellenar -->
+      <correo>juanfernandez@gmail.com </correo> <!-- rellenar -->
   </datos_personales>
 
   <formacion_academica>
