@@ -10,22 +10,22 @@
         <fijo> 922345670 </fijo>
         <movil> 653859932 </movil>
       </telefonos>
-      <correo>juanfernandez@gmail.com </correo> <!-- rellenar -->
+      <correo>juanfernandez@gmail.com </correo>  
   </datos_personales>
 
   <formacion_academica>
     <titulacion>
-      <nombre_titulacion> </nombre_titulacion> <!-- rellenar -->
-      <año_inicio> </año_inicio> <!-- rellenar -->
-      <año_fin> </año_fin> <!-- rellenar -->
-      <centro_estudio> </centro_estudio> <!-- rellenar -->
+      <nombre_titulacion> Magisterio </nombre_titulacion>  
+      <año_inicio> 15/09/2007</año_inicio>  
+      <año_fin> 15/09/2011 </año_fin>  
+      <centro_estudio> Universidad de La Laguna</centro_estudio>  
     </titulacion>
   </formacion_academica>
 
   <practicas_profesionales>
     <empresa>
-      <nombre_empresa> </nombre_empresa> <!-- rellenar -->
-      <localidad> </localidad> <!-- rellenar -->
+      <nombre_empresa> Colegio Cisneros Alter  </nombre_empresa>  
+      <localidad> Valle Tabares </localidad>  
       <tareas>
         
          <tarea>
