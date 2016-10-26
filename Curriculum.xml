@@ -27,73 +27,101 @@
       <nombre_empresa> </nombre_empresa> <!-- rellenar -->
       <localidad> </localidad> <!-- rellenar -->
       <tareas>
-        <!-- rellenar -->
+        
+         <tarea>
+           <nombre_tarea> Dar clase a los alumnos de la ESO</nombre_tarea>
+           <duracion_tarea> 2 meses</duracion_tarea>
+           <horas_diarias> 5 </horas_diarias> 
+         </tarea>
+         
+         <tarea> 
+            <nombre_tarea> Organizar la semana del deporte</nombre_tarea>
+            <duracion_tarea> 1 semana </duracion_tarea>
+            <horas_diarias> 3 </horas_diarias> 
+         </tarea>
+         
+         <tarea> 
+            <nombre_tarea> Ejercer de profesor de apoyo </nombre_tarea>
+            <duracion_tarea> 3 semanas </duracion_tarea>
+            <horas_diarias> 5 </horas_diarias> 
+         </tarea> 
+         
       </tareas>
-      <fecha_inicio> </fecha_inicio> <!-- rellenar -->
-      <fecha_fin> </fecha_fin> <!-- rellenar -->
+      <fecha_inicio> 15/09/2011</fecha_inicio>  
+      <fecha_fin> 15/12/2011</fecha_fin>  
     </empresa>
   </practicas_profesionales>
 
   <experiencia_profesional>
-    <puesto_ocupado> </puesto_ocupado> <!-- rellenar -->
-    <localidad_empresa> </localidad_empresa> <!-- rellenar -->
+    <puesto_ocupado> Profesor en el instituto IES Virgen de la Candelaria</puesto_ocupado>  
+    <localidad_empresa> Santa Cruz de Tenerife</localidad_empresa>  
     <tareas_desarrolladas>
-      <!-- rellenar -->
+      <tarea> 
+            <nombre_tarea> Profesor de Matemáticas de los alumos de 4º de la ESO </nombre_tarea>
+            <duracion_tarea> 1 año</duracion_tarea>
+            <horas_diarias> 7 </horas_diarias> 
+      </tarea> 
+      
+      <tarea> 
+            <nombre_tarea> Jefe de Estudios </nombre_tarea>
+            <duracion_tarea> 5 meses </duracion_tarea>
+            <horas_diarias> 7 </horas_diarias> 
+      </tarea> 
+      
     </tareas_desarrolladas>
-    <fecha_comienzo> </fecha_comienzo> <!-- rellenar -->
-    <fecha_finalización> </fecha_finalización> <!-- rellenar -->
+    <fecha_comienzo> 15/12/2012 </fecha_comienzo> 
+    <fecha_finalización> 15/05/2014 </fecha_finalización>  
   </experiencia_profesional>
 
   <formación_complementaria>
     <curso>
-      <nombre_curso> </nombre_curso> <!-- rellenar -->
-      <centro_organizador> </centro_organizador> <!-- rellenar -->
-      <localidad_centro> </localidad_centro> <!-- rellenar -->
-      <inicio> </inicio> <!-- rellenar -->
-      <fin> </fin> <!-- rellenar -->
-      <horas> </horas> <!-- rellenar -->
+      <nombre_curso> Marketing básico para administración de empresas </nombre_curso>  
+      <centro_organizador> Universidad de La Laguna</centro_organizador>  
+      <localidad_centro> San Cristóbal de La Laguna</localidad_centro>  
+      <inicio>15/03/2012 </inicio>  
+      <fin> 29/03/2012</fin>  
+      <horas> 5 </horas>  
     </curso>
   </formación_complementaria>
 
   <idiomas>
     <idioma>
-      <nombre_idioma> </nombre_idioma> <!-- rellenar -->
-      <nivel_lectura> </nivel_lectura> <!-- rellenar -->
-      <nivel_habla> </nivel_habla> <!-- rellenar -->
-      <nivel_escritura> </nivel_escritura> <!-- rellenar -->
+      <nombre_idioma> Inglés </nombre_idioma>  
+      <nivel_lectura> alto </nivel_lectura>  
+      <nivel_habla> alto </nivel_habla>  
+      <nivel_escritura> alto  </nivel_escritura>  
       <cursos_idioma>
-        <nombre_curso_idioma> </nombre_curso_idioma> <!-- rellenar -->
-        <duracion_curso> </duracion_curso> <!-- rellenar -->
-        <certificación_obtenida> </certificación_obtenida> <!-- rellenar -->
+        <nombre_curso_idioma> Cambridge English: First (FCE) </nombre_curso_idioma>  
+        <duracion_curso> 6 meses </duracion_curso>  
+        <certificación_obtenida> First Certificate Cambridge </certificación_obtenida>  
       </cursos_idioma>
       <estancias_extranjero>
         <estancia>
-          <lugar_estancia> </lugar_estancia> <!-- rellenar -->
-          <pais_estancia> </pais_estancia> <!-- rellenar -->
-          <duracion_estancia> </duracion_estancia> <!-- rellenar -->
+          <lugar_estancia> Londres </lugar_estancia>  
+          <pais_estancia> Inglaterra </pais_estancia>  
+          <duracion_estancia> 1 año </duracion_estancia>  
         </estancia>
       </estancias_extranjero>
     </idioma>
   </idiomas>
   <informatica>
-    <nivel> </nivel> <!-- rellenar -->
+    <nivel> medio </nivel>  
     <programas>
-      <!-- rellenar -->
+      <nombre_programa> Microsoft Office 2010</nombre_programa>
     </programas>
   </informatica>
 
   <datos_de_interes>
-    <carne_conducir> </carne_conducir> <!-- rellenar -->
-    <disponibilidad_geografica> </disponibilidad_geografica> <!-- rellenar -->
-    <incorporacion_inmediata> </incorporacion_inmediata> <!-- rellenar -->
-    <capacidades>
-      <!-- rellenar -->
-    </capacidades>
+    <carne_conducir> si </carne_conducir>  
+    <disponibilidad_geografica> Europa </disponibilidad_geografica>  
+    <incorporacion_inmediata> si </incorporacion_inmediata>  
     <habilidades>
-      <!-- rellenar -->
+      <nombre_habilidad> experto en psicología infantil </nombre_habilidad>
+      <nombre_habilidad> curso de primeros auxilios </nombre_habilidad>
     </habilidades>
     <aficiones>
-      <!-- rellenar -->
+      <nombre_aficion> jugar al padel </nombre_aficion>
+      <nombre_aficion> cine </nombre_aficion>
     </aficiones>
   </datos_de_interes>
 </curriculum>
