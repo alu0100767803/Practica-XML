@@ -15,3 +15,4 @@ Universidad de La Laguna, Escuela Superior de Ingeniería y Tecnología, 3º
 * XML-Schema
 
 ## Descripción
+Diseño e implementación de la estructura de un curriculum vitae en XML
