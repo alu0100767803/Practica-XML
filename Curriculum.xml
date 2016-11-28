@@ -1,4 +1,5 @@
 <?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="plantilla.xsl" ?>
 <curriculum>
   <datos_personales>
       <nombre> Juan </nombre>
@@ -10,118 +11,128 @@
         <fijo> 922345670 </fijo>
         <movil> 653859932 </movil>
       </telefonos>
-      <correo>juanfernandez@gmail.com </correo>  
+      <correo>juanfernandez@gmail.com </correo>
   </datos_personales>
 
   <formacion_academica>
     <titulacion>
-      <nombre_titulacion> Magisterio </nombre_titulacion>  
-      <año_inicio> 15/09/2007</año_inicio>  
-      <año_fin> 15/09/2011 </año_fin>  
-      <centro_estudio> Universidad de La Laguna</centro_estudio>  
+      <nombre_titulacion> Magisterio </nombre_titulacion>
+      <año_inicio> 15/09/2007</año_inicio>
+      <año_fin> 15/09/2011 </año_fin>
+      <centro_estudio> Universidad de La Laguna</centro_estudio>
     </titulacion>
   </formacion_academica>
 
   <practicas_profesionales>
     <empresa>
-      <nombre_empresa> Colegio Cisneros Alter  </nombre_empresa>  
-      <localidad> Valle Tabares </localidad>  
+      <nombre_empresa> Colegio Cisneros Alter  </nombre_empresa>
+      <localidad> Valle Tabares </localidad>
       <tareas>
-        
+
          <tarea>
            <nombre_tarea> Dar clase a los alumnos de la ESO</nombre_tarea>
            <duracion_tarea> 2 meses</duracion_tarea>
-           <horas_diarias> 5 </horas_diarias> 
+           <horas_diarias> 5 </horas_diarias>
          </tarea>
-         
-         <tarea> 
+
+         <tarea>
             <nombre_tarea> Organizar la semana del deporte</nombre_tarea>
             <duracion_tarea> 1 semana </duracion_tarea>
-            <horas_diarias> 3 </horas_diarias> 
+            <horas_diarias> 3 </horas_diarias>
          </tarea>
-         
-         <tarea> 
+
+         <tarea>
             <nombre_tarea> Ejercer de profesor de apoyo </nombre_tarea>
             <duracion_tarea> 3 semanas </duracion_tarea>
-            <horas_diarias> 5 </horas_diarias> 
-         </tarea> 
-         
+            <horas_diarias> 5 </horas_diarias>
+         </tarea>
+
       </tareas>
-      <fecha_inicio> 15/09/2011</fecha_inicio>  
-      <fecha_fin> 15/12/2011</fecha_fin>  
+      <fecha_inicio> 15/09/2011</fecha_inicio>
+      <fecha_fin> 15/12/2011</fecha_fin>
     </empresa>
   </practicas_profesionales>
 
   <experiencia_profesional>
-    <puesto_ocupado> Profesor en el instituto IES Virgen de la Candelaria</puesto_ocupado>  
-    <localidad_empresa> Santa Cruz de Tenerife</localidad_empresa>  
+    <puesto_ocupado> Profesor en el instituto IES Virgen de la Candelaria</puesto_ocupado>
+    <localidad_empresa> Santa Cruz de Tenerife</localidad_empresa>
     <tareas_desarrolladas>
-      <tarea> 
+      <tarea>
             <nombre_tarea> Profesor de Matemáticas de los alumos de 4º de la ESO </nombre_tarea>
             <duracion_tarea> 1 año</duracion_tarea>
-            <horas_diarias> 7 </horas_diarias> 
-      </tarea> 
-      
-      <tarea> 
+            <horas_diarias> 7 </horas_diarias>
+      </tarea>
+
+      <tarea>
             <nombre_tarea> Jefe de Estudios </nombre_tarea>
             <duracion_tarea> 5 meses </duracion_tarea>
-            <horas_diarias> 7 </horas_diarias> 
-      </tarea> 
-      
+            <horas_diarias> 7 </horas_diarias>
+      </tarea>
+
     </tareas_desarrolladas>
-    <fecha_comienzo> 15/12/2012 </fecha_comienzo> 
-    <fecha_finalización> 15/05/2014 </fecha_finalización>  
+    <fecha_comienzo> 15/12/2012 </fecha_comienzo>
+    <fecha_finalización> 15/05/2014 </fecha_finalización>
   </experiencia_profesional>
 
   <formación_complementaria>
     <curso>
-      <nombre_curso> Marketing básico para administración de empresas </nombre_curso>  
-      <centro_organizador> Universidad de La Laguna</centro_organizador>  
-      <localidad_centro> San Cristóbal de La Laguna</localidad_centro>  
-      <inicio>15/03/2012 </inicio>  
-      <fin> 29/03/2012</fin>  
-      <horas> 5 </horas>  
+      <nombre_curso> Marketing básico para administración de empresas </nombre_curso>
+      <centro_organizador> Universidad de La Laguna</centro_organizador>
+      <localidad_centro> San Cristóbal de La Laguna</localidad_centro>
+      <inicio>15/03/2012 </inicio>
+      <fin> 29/03/2012</fin>
+      <horas> 5 </horas>
     </curso>
   </formación_complementaria>
 
   <idiomas>
     <idioma>
-      <nombre_idioma> Inglés </nombre_idioma>  
-      <nivel_lectura> alto </nivel_lectura>  
-      <nivel_habla> alto </nivel_habla>  
-      <nivel_escritura> alto  </nivel_escritura>  
+      <nombre_idioma> Inglés </nombre_idioma>
+      <nivel_lectura> alto </nivel_lectura>
+      <nivel_habla> alto </nivel_habla>
+      <nivel_escritura> alto  </nivel_escritura>
       <cursos_idioma>
-        <nombre_curso_idioma> Cambridge English: First (FCE) </nombre_curso_idioma>  
-        <duracion_curso> 6 meses </duracion_curso>  
-        <certificación_obtenida> First Certificate Cambridge </certificación_obtenida>  
+        <curso>
+        <nombre_curso_idioma> Cambridge English: First (FCE) </nombre_curso_idioma>
+        <duracion_curso> 6 meses </duracion_curso>
+        <certificación_obtenida> First Certificate Cambridge </certificación_obtenida>
+        </curso>
       </cursos_idioma>
       <estancias_extranjero>
         <estancia>
-          <lugar_estancia> Londres </lugar_estancia>  
-          <pais_estancia> Inglaterra </pais_estancia>  
-          <duracion_estancia> 1 año </duracion_estancia>  
+          <lugar_estancia> Londres </lugar_estancia>
+          <pais_estancia> Inglaterra </pais_estancia>
+          <duracion_estancia> 1 año </duracion_estancia>
         </estancia>
       </estancias_extranjero>
     </idioma>
   </idiomas>
   <informatica>
-    <nivel> medio </nivel>  
+    <nivel> medio </nivel>
     <programas>
       <nombre_programa> Microsoft Office 2010</nombre_programa>
     </programas>
   </informatica>
 
   <datos_de_interes>
-    <carne_conducir> si </carne_conducir>  
-    <disponibilidad_geografica> Europa </disponibilidad_geografica>  
-    <incorporacion_inmediata> si </incorporacion_inmediata>  
+    <carnet_conducir> si </carnet_conducir>
+    <disponibilidad_geografica> Europa </disponibilidad_geografica>
+    <incorporacion_inmediata> si </incorporacion_inmediata>
     <habilidades>
-      <nombre_habilidad> experto en psicología infantil </nombre_habilidad>
-      <nombre_habilidad> curso de primeros auxilios </nombre_habilidad>
+      <habilidad>
+        <nombre_habilidad> experto en psicología infantil </nombre_habilidad>
+      </habilidad>
+      <habilidad>
+        <nombre_habilidad> curso de primeros auxilios </nombre_habilidad>
+      </habilidad>
     </habilidades>
     <aficiones>
-      <nombre_aficion> jugar al padel </nombre_aficion>
-      <nombre_aficion> cine </nombre_aficion>
+      <aficion>
+        <nombre_aficion> jugar al padel </nombre_aficion>
+      </aficion>
+      <aficion>
+        <nombre_aficion> cine </nombre_aficion>
+      </aficion>
     </aficiones>
   </datos_de_interes>
 </curriculum>

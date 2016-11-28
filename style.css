@@ -1,0 +1,33 @@
+
+#cabecera{
+  text-align:center;
+}
+
+
+body{
+  background-image: url(images/body2.jpg);
+  background-attachment: fixed;
+  background-position: right;
+}
+
+.curriculum{
+  border: 5px solid black;
+  padding:15px;
+}
+
+#perfil{
+  float: right;
+}
+
+.cuadro{
+  border:3px solid black;
+  padding:10px;
+}
+
+.titulo{
+  text-align: center;
+}
+
+.titulo2{
+  font-weight: bold;
+}
