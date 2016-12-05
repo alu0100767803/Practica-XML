@@ -1,0 +1,213 @@
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="curriculum">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="datos_personales">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="nombre"/>
+              <xs:element type="xs:string" name="apellidos"/>
+              <xs:element type="xs:string" name="fecha_nacimiento"/>
+              <xs:element type="xs:string" name="lugar_nacimiento"/>
+              <xs:element type="xs:string" name="direccion"/>
+              <xs:element name="telefonos">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:float" name="fijo"/>
+                    <xs:element type="xs:float" name="movil"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="correo"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="formacion_academica">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titulacion">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="nombre_titulacion"/>
+                    <xs:element type="xs:string" name="año_inicio"/>
+                    <xs:element type="xs:string" name="año_fin"/>
+                    <xs:element type="xs:string" name="centro_estudio"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="practicas_profesionales">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="empresa">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="nombre_empresa"/>
+                    <xs:element type="xs:string" name="localidad"/>
+                    <xs:element name="tareas">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="tarea" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="nombre_tarea"/>
+                                <xs:element type="xs:string" name="duracion_tarea"/>
+                                <xs:element type="xs:float" name="horas_diarias"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="fecha_inicio"/>
+                    <xs:element type="xs:string" name="fecha_fin"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="experiencia_profesional">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="puesto_ocupado"/>
+              <xs:element type="xs:string" name="localidad_empresa"/>
+              <xs:element name="tareas_desarrolladas">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="tarea" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="nombre_tarea"/>
+                          <xs:element type="xs:string" name="duracion_tarea"/>
+                          <xs:element type="xs:float" name="horas_diarias"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="fecha_comienzo"/>
+              <xs:element type="xs:string" name="fecha_finalización"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="formación_complementaria">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="curso">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="nombre_curso"/>
+                    <xs:element type="xs:string" name="centro_organizador"/>
+                    <xs:element type="xs:string" name="localidad_centro"/>
+                    <xs:element type="xs:string" name="inicio"/>
+                    <xs:element type="xs:string" name="fin"/>
+                    <xs:element type="xs:float" name="horas"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="idiomas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idioma">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="nombre_idioma"/>
+                    <xs:element type="xs:string" name="nivel_lectura"/>
+                    <xs:element type="xs:string" name="nivel_habla"/>
+                    <xs:element type="xs:string" name="nivel_escritura"/>
+                    <xs:element name="cursos_idioma">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="curso">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="nombre_curso_idioma"/>
+                                <xs:element type="xs:string" name="duracion_curso"/>
+                                <xs:element type="xs:string" name="certificación_obtenida"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="estancias_extranjero">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="estancia">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="lugar_estancia"/>
+                                <xs:element type="xs:string" name="pais_estancia"/>
+                                <xs:element type="xs:string" name="duracion_estancia"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="informatica">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="nivel"/>
+              <xs:element name="programas">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="nombre_programa"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="datos_de_interes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="carnet_conducir"/>
+              <xs:element type="xs:string" name="disponibilidad_geografica"/>
+              <xs:element type="xs:string" name="incorporacion_inmediata"/>
+              <xs:element name="habilidades">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="habilidad" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="nombre_habilidad"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="aficiones">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="aficion" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="nombre_aficion"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type="text/xsl" href="plantilla.xsl" ?>
-<curriculum>
+<curriculum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.w3schools.com curriculumpro.xsd">
   <datos_personales>
       <nombre> Juan </nombre>
       <apellidos>Fernández Núñez </apellidos>
